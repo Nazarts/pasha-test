@@ -1,0 +1,232 @@
+
+.document{
+	display: flex;
+	background-image: url(ukr_id_without_text.JPG);
+	background-repeat: no-repeat;
+	width: 1500px;
+	height: 300px;
+	position: relative;
+}
+#doc_img{
+	width: 118px;
+	height: 160px;
+	margin-left: 33px;
+	margin-top: 70px;
+	border-radius: 5px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+#s_sur_name{
+	margin-top: 58px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#s_ing_sur_name{
+	margin-top: 70px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#s_name{
+	margin-top: 93px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#s_ing_name{
+	margin-top: 105px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#po_batkovi{
+	margin-top: 132px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#inp_name{
+	width: 250px;
+	height: 25px;
+	margin-top: -15px;
+	margin-bottom: -8px;
+	border-radius: 3px;
+	
+}
+#inp_name:focus{
+	border: 1px solid #39c; /* Рамка при получении фокуса */
+}
+#inp_ingl_name{
+	width: 250px;
+	height: 25px;
+	margin-top: -15px;
+	margin-bottom: -8px;
+	border-radius: 3px;
+	border-color: silver;
+
+}
+#inp_ingl_name:focus{
+	border: 1px solid #39c; /* Рамка при получении фокуса */
+}
+#in_fam{
+	width: 250px;
+	height: 25px;
+	margin-top: -15px;
+	margin-bottom: -8px;
+	border-radius: 3px;
+	border-color: silver;
+}
+#in_fam:focus{
+	border: 1px solid #39c; /* Рамка при получении фокуса */
+}
+#in_fam_angl{
+	width: 250px;
+	height: 25px;
+	margin-top: -15px;
+	margin-bottom: -8px;
+	border-radius: 3px;
+    border-color: silver;
+
+}
+#in_fam_angl:focus{
+	border: 1px solid #39c; /* Рамка при получении фокуса */
+}
+#in_batko{
+	width: 250px;
+	height: 25px;
+	margin-top: -15px;
+	margin-bottom: 50px; /*50px вниз */
+	border-radius: 3px;
+    border-color: silver;
+}
+#in_batko:focus{
+	border: 1px solid #39c; /* Рамка при получении фокуса */
+}
+.rad{
+	display: flex;
+}
+#sex{
+	margin-top: 156px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#month{
+	margin-top: 180px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#day{
+	margin-top: 180px;
+	margin-left: 194px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#year{
+	margin-top: 180px;
+	margin-left: 210px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#nationality{
+	margin-top: 156px;
+	margin-left: 280px;
+	position: absolute;
+	font-size: 12px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#idnnom{
+	margin-top: 205px;
+	margin-left: 282px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold ;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+#inp_div{
+	display: flex;
+	flex-direction: column;
+
+}
+#gen_btn{
+	width: 150px;
+	height: 35px;
+	background-color: #007bff ;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+}
+#record{
+	margin-top: 180px;
+	margin-left: 282px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold ;
+	text-transform: uppercase;
+	
+}
+#r_def{
+	margin-top: 180px;
+	margin-left: 338px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold ;
+	text-transform: uppercase;
+	
+}
+#r_num{
+	margin-top: 180px;
+	margin-left: 344px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold ;
+	text-transform: uppercase;
+	
+}
+#month1{
+	margin-top: 203px;
+	margin-left: 178px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#day1{
+	margin-top: 203px;
+	margin-left: 194px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
+#year1{
+	margin-top: 203px;
+	margin-left: 210px;
+	position: absolute;
+	font-size: 14px;
+	font-family: bold "Arial";
+	text-transform: uppercase;
+}
